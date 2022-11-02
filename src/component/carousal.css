@@ -1,0 +1,43 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    width: 70vw;
+    margin: 50px auto;
+}
+
+img {
+    width: 100%;
+    transition: .2s;
+}
+
+.container .img-container:hover img {
+    transform: scale(1.5);
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+.slick-dots li button::before {
+    font-size: 10px !important;
+    margin-top: 50px;
+}
+
+.slick-slider .slick-prev {
+    left: -50px;
+}
+
+.slick-slider .slick-next {
+    right: -50px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-size: 30px;
+}
